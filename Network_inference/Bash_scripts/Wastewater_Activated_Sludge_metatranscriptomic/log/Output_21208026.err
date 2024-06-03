@@ -1,0 +1,77 @@
+Loaded dependency [R/4.3.1-mkl2023update1]: cmake/3.26.3
+Loaded dependency [R/4.3.1-mkl2023update1]: openjdk/11
+Loaded dependency [R/4.3.1-mkl2023update1]: gcc/12.3.0-binutils-2.40
+Loaded dependency [R/4.3.1-mkl2023update1]: intel/2023.1.0.mkl
+Loaded module: R/4.3.1-mkl2023update1
+
+Loading R/4.3.1-mkl2023update1
+  Loading requirement: cmake/3.26.3 openjdk/11 gcc/12.3.0-binutils-2.40
+    intel/2023.1.0.mkl
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installation paths not writeable, unable to update packages
+  path: /appl/R/4.3.1-oneapimkl2023.1/lib64/R/library
+  packages:
+    KernSmooth, MASS, Matrix, boot, cluster, codetools, foreign, lattice, mgcv,
+    nlme, rpart, spatial, survival
+Old packages: 'Biostrings', 'GenomeInfoDb', 'Hmisc', 'RSQLite',
+  'RcppArmadillo', 'RcppEigen', 'VGAM', 'bslib', 'callr', 'curl', 'data.table',
+  'digest', 'future', 'future.apply', 'ggplot2', 'gh', 'globals', 'htmltools',
+  'httpuv', 'httr2', 'igraph', 'munsell', 'parallelly', 'pkgbuild', 'processx',
+  'psych', 'ragg', 'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shape',
+  'shiny', 'systemfonts', 'tidyselect', 'tinytex', 'xfun', 'zlibbioc'
+Warning message:
+package(s) not installed when version(s) same as or greater than current; use
+  `force = TRUE` to re-install: 'phyloseq' 'microbiome' 
+Skipping install of 'NetCoMi' from a github remote, the SHA1 (0809c7a5) has not changed since last install.
+  Use `force = TRUE` to force installation
+Loading required package: devtools
+Loading required package: usethis
+Loading required package: BiocManager
+
+Attaching package: ‘BiocManager’
+
+The following object is masked from ‘package:devtools’:
+
+    install
+
+Loading required package: optparse
+Loading required package: NetCoMi
+Loading required package: SpiecEasi
+
+Loading required package: phyloseq
+Loading required package: microbiome
+Loading required package: ggplot2
+
+microbiome R package (microbiome.github.com)
+    
+
+
+ Copyright (C) 2011-2022 Leo Lahti, 
+    Sudarshan Shetty et al. <microbiome.github.io>
+
+
+Attaching package: ‘microbiome’
+
+The following object is masked from ‘package:ggplot2’:
+
+    alpha
+
+The following object is masked from ‘package:base’:
+
+    transform
+
+Checking input arguments ... Done.
+16 rows with zero sum removed.
+1261 taxa and 190 samples remaining.
+
+Zero treatment:
+Zero counts replaced by 1
+
+Normalization:
+Counts normalized by total sum scaling.
+
+Calculate 'cclasso' associations ... 
+current loss diff.: -Inf (breaks if >= Inf)current loss diff.: 1819.480093 (breaks if >= 0.495294)
+Done.
+
+Sparsify associations via 'threshold' ... Done.

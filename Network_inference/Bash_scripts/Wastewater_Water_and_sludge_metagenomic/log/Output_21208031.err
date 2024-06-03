@@ -1,0 +1,77 @@
+Loaded dependency [R/4.3.1-mkl2023update1]: cmake/3.26.3
+Loaded dependency [R/4.3.1-mkl2023update1]: openjdk/11
+Loaded dependency [R/4.3.1-mkl2023update1]: gcc/12.3.0-binutils-2.40
+Loaded dependency [R/4.3.1-mkl2023update1]: intel/2023.1.0.mkl
+Loaded module: R/4.3.1-mkl2023update1
+
+Loading R/4.3.1-mkl2023update1
+  Loading requirement: cmake/3.26.3 openjdk/11 gcc/12.3.0-binutils-2.40
+    intel/2023.1.0.mkl
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installation paths not writeable, unable to update packages
+  path: /appl/R/4.3.1-oneapimkl2023.1/lib64/R/library
+  packages:
+    KernSmooth, MASS, Matrix, boot, cluster, codetools, foreign, lattice, mgcv,
+    nlme, rpart, spatial, survival
+Old packages: 'Biostrings', 'GenomeInfoDb', 'Hmisc', 'RSQLite',
+  'RcppArmadillo', 'RcppEigen', 'VGAM', 'bslib', 'callr', 'curl', 'data.table',
+  'digest', 'future', 'future.apply', 'ggplot2', 'gh', 'globals', 'htmltools',
+  'httpuv', 'httr2', 'igraph', 'munsell', 'parallelly', 'pkgbuild', 'processx',
+  'psych', 'ragg', 'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shape',
+  'shiny', 'systemfonts', 'tidyselect', 'tinytex', 'xfun', 'zlibbioc'
+Warning message:
+package(s) not installed when version(s) same as or greater than current; use
+  `force = TRUE` to re-install: 'phyloseq' 'microbiome' 
+Skipping install of 'NetCoMi' from a github remote, the SHA1 (0809c7a5) has not changed since last install.
+  Use `force = TRUE` to force installation
+Loading required package: devtools
+Loading required package: usethis
+Loading required package: BiocManager
+
+Attaching package: ‘BiocManager’
+
+The following object is masked from ‘package:devtools’:
+
+    install
+
+Loading required package: optparse
+Loading required package: NetCoMi
+Loading required package: SpiecEasi
+
+Loading required package: phyloseq
+Loading required package: microbiome
+Loading required package: ggplot2
+
+microbiome R package (microbiome.github.com)
+    
+
+
+ Copyright (C) 2011-2022 Leo Lahti, 
+    Sudarshan Shetty et al. <microbiome.github.io>
+
+
+Attaching package: ‘microbiome’
+
+The following object is masked from ‘package:ggplot2’:
+
+    alpha
+
+The following object is masked from ‘package:base’:
+
+    transform
+
+Checking input arguments ... Done.
+3 rows with zero sum removed.
+1225 taxa and 168 samples remaining.
+
+Zero treatment:
+Zero counts replaced by 1
+
+Normalization:
+Counts normalized by total sum scaling.
+
+Calculate 'cclasso' associations ... 
+current loss diff.: -Inf (breaks if >= Inf)current loss diff.: -569.816262 (breaks if >= 0.224897)current loss diff.: -550.498333 (breaks if >= 0.224327)current loss diff.: -529.743583 (breaks if >= 0.223777)current loss diff.: -509.793585 (breaks if >= 0.223247)current loss diff.: -490.785774 (breaks if >= 0.222737)current loss diff.: -472.328008 (breaks if >= 0.222246)current loss diff.: -453.242759 (breaks if >= 0.221774)current loss diff.: -434.641655 (breaks if >= 0.221321)current loss diff.: -416.294188 (breaks if >= 0.220886)current loss diff.: -398.410660 (breaks if >= 0.220470)current loss diff.: -380.091432 (breaks if >= 0.220071)current loss diff.: -362.439650 (breaks if >= 0.219691)current loss diff.: -345.316284 (breaks if >= 0.219329)current loss diff.: -328.382009 (breaks if >= 0.218984)current loss diff.: -311.725548 (breaks if >= 0.218655)current loss diff.: -296.292034 (breaks if >= 0.218344)current loss diff.: -281.359577 (breaks if >= 0.218047)current loss diff.: -266.074489 (breaks if >= 0.217766)current loss diff.: -251.156436 (breaks if >= 0.217500)current loss diff.: -237.032285 (breaks if >= 0.217249)current loss diff.: -223.302801 (breaks if >= 0.217012)current loss diff.: -209.544694 (breaks if >= 0.216788)current loss diff.: -196.257648 (breaks if >= 0.216579)current loss diff.: -183.767494 (breaks if >= 0.216383)current loss diff.: -171.722239 (breaks if >= 0.216199)current loss diff.: -159.821301 (breaks if >= 0.216027)current loss diff.: -148.269574 (breaks if >= 0.215867)current loss diff.: -137.082798 (breaks if >= 0.215719)current loss diff.: -126.772232 (breaks if >= 0.215582)current loss diff.: -116.203546 (breaks if >= 0.215455)current loss diff.: -106.022044 (breaks if >= 0.215339)current loss diff.: -96.231125 (breaks if >= 0.215233)current loss diff.: -86.732471 (breaks if >= 0.215137)current loss diff.: -77.681767 (breaks if >= 0.215050)current loss diff.: -68.943534 (breaks if >= 0.214972)current loss diff.: -60.848943 (breaks if >= 0.214903)current loss diff.: -53.166789 (breaks if >= 0.214842)current loss diff.: -45.843147 (breaks if >= 0.214789)current loss diff.: -38.704498 (breaks if >= 0.214743)current loss diff.: -31.611209 (breaks if >= 0.214705)current loss diff.: -25.017645 (breaks if >= 0.214673)current loss diff.: -18.603315 (breaks if >= 0.214648)current loss diff.: -12.140038 (breaks if >= 0.214629)current loss diff.: -6.087088 (breaks if >= 0.214617)current loss diff.: -0.425313 (breaks if >= 0.214611)current loss diff.: 4.980279 (breaks if >= 0.214616)
+Done.
+
+Sparsify associations via 'threshold' ... Done.
